@@ -1,0 +1,26 @@
+{
+  "version": "0.1",
+  "name": "UK Trains",
+  "launch_path": "/index.html",
+  "description": "Create shortcuts to timetables and departure boards of your favourite UK rail stations.",
+  "icons": {
+    "16": "/img/icon-16.png",
+    "32": "/img/icon-32.png",
+    "48": "/img/icon-48.png",
+    "64": "/img/icon-64.png",
+    "128": "/img/icon-128.png"
+  },
+  "developer": {
+    "name": "Paul Cuthbertson",
+    "url": "http://paulcuth.me.uk"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+    "geolocation": {
+      "description": "Find your nearest station"
+    }
+  }
+}
