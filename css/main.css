@@ -53,6 +53,8 @@ iframe {
 
 
 main {
+	display: block;
+	width: 100%;
 	height: 100%;
 	height: calc(100% - 40px);
 	overflow: auto;
@@ -180,6 +182,11 @@ main > #refresh.visible {
 	display: block;
 }
 
+
+article {
+	display: block;
+	width: 100%;
+}
 
 article.info {
 	padding-top: 12px;
